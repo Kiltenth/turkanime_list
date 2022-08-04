@@ -1,0 +1,8 @@
+Version 0.1
+-------------
+-Currently working on "list_from_exported_bookmarks.py"
+-Currently able to get specific bookmark links from an exported chrome bookmark file.
+
+To-Do 0.1
+-----------
+Add web scraping feature to get the name of the anime from html elements and add It to a txt file.
