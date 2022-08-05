@@ -1,4 +1,4 @@
-Version 0.1
+Version 0.1 (August 4, 2022)
 -------------
 -Currently working on "list_from_exported_bookmarks.py"
 -Currently able to get specific bookmark links from an exported chrome bookmark file.
@@ -7,7 +7,7 @@ To-Do 0.1
 -----------
 Add web scraping feature to get the name of the anime from html elements and add It to a txt file.
 
-Version 0.1.1
+Version 0.1.1 (August 5, 2022)
 --------------
 -Noticed the connection problems and HTTP Error 403: Forbidden was due to website having different TLDs previously. Even though when a link with old TLD was used, user got redirected to up-to-date website; urllib was unable to connect. Using User-Agents made no difference.
 
