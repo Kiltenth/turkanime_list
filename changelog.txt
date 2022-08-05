@@ -6,3 +6,15 @@ Version 0.1
 To-Do 0.1
 -----------
 Add web scraping feature to get the name of the anime from html elements and add It to a txt file.
+
+Version 0.1.1
+--------------
+-Noticed the connection problems and HTTP Error 403: Forbidden was due to website having different TLDs previously. Even though when a link with old TLD was used, user got redirected to up-to-date website; urllib was unable to connect. Using User-Agents made no difference.
+
+A temporary or if no other solution is present a permanent way to fix this was to change older TLDs in the string with the current TLD of website.
+
+Program is currently able to get the 'title' element from pages that are in a list, add titles to another list and print them.
+
+To-Do 0.1.1
+-------------
+Previous 'To-Do's are still present. Titles will be extracted to a txt file.
